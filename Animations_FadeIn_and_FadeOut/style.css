@@ -3,8 +3,16 @@ img {
 }
 
 div {
-    align-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
     margin: 20px;
     padding: 20px;
     border: 5px bold;
+}
+
+button
+{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
 }
