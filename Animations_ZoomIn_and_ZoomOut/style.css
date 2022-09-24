@@ -4,3 +4,24 @@
     justify-content: center;    
     color: rgb(150, 150, 150);
 }
+
+button {
+    font-size: larger;
+    gap: 50px;
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+.buttons {
+    display: grid;
+    size: 50px;
+    justify-content: left;
+    gap: 10px;
+    
+}
+
+img {
+    padding-top: 20px;
+    padding-left: 200px;
+}
+

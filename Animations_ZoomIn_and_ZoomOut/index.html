@@ -12,6 +12,13 @@
         <h2>JS Zoom In And Zoom Out</h2>
         <div></div>
     </div>
-<script src="main.js"></script>
+    <div class="buttons">
+        <button onclick="shrink()" id="shrink-button">shrink</button>
+        <button onclick="large()"id="large-button">large</button>
+    </div>
+    
+    <img id="img-giraffee" width='200px' src="../animals_Pics/pexels-pixabay-67552.jpg" onmouseout="shrink()" onmouseover="large()">
+    <br><br>
+<script src="main.js" ></script>
 </body>
 </html>
