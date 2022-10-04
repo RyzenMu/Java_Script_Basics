@@ -1,7 +1,7 @@
 document.write('Hello World From Java Script')
 
 function delay_function (){
-    setTimeout(alert_function, 20000);
+    setTimeout(alert_function, 2000);
 };
 
 function alert_function(){
@@ -14,6 +14,5 @@ function interval_function(){
 
 function fade_out_function(){
     
-    opac = document.getElementById('pic-chinese-pakoda').style.opacity;
-    opac = opac - 0.5;
+    image = document.getElementById('pic-chinese-pakoda').style.opacity = 0.2
 }
