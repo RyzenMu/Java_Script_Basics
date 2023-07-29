@@ -1,4 +1,4 @@
-document.write('Hello World From Java Script')
+document.write('Hello Worljd From Java Script')
 
 function delay_function (){
     setTimeout(alert_function, 2000);
